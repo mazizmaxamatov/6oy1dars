@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background: radial-gradient(54.93% 108.63% at 11.98% 19.48%, #131313 0%, rgba(0, 0, 0, 0.84) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35px;
+    width: 1440px;
+    margin: auto;
+    height: 1024px;
+    position: absolute;
+    
+}
+
+nav {
+    max-width: 1260px;
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav_left .logo a {
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #FFFFFFA6;
+}
+
+nav .nav_right {
+    display: flex;
+    gap: 80px;
+}
+
+nav .nav_right ul {
+    display: flex;
+    gap: 59px;
+    margin-top: 8px;
+}
+
+nav .nav_right ul li a {
+    font-size: 19px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #FFFFFF8C;
+}
+
+nav .nav_right ul li a:hover {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+header main menu {
+    display: flex;
+}
+
+main menu .menu_left {
+    margin-top: 260px;
+   padding-left: 80px;
+}
+
+main menu .menu_left h1 {
+    max-width: 623px;
+    font-size: 88px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 55px;
+}
+
+main menu .menu_left .paar {
+   width: 563px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 300;
+    color: #FFFFFF;
+    
+}
+
+main menu .menu_left .btn button {
+    width: 235px;
+    height: 81px;
+    border-radius: 23px;
+    font-family: Roboto;
+    font-size: 24px;
+    border: 1px solid #FFFFFF;
+    background-color: #131313;
+    color: #FFFFFF;
+}
+
+main menu .menu_left .btn{
+    margin-top: 117px;
+    
+}
+
+main menu .menu_left .btn .btn11 {
+    background: linear-gradient(270deg, #2200F0 -7.02%, #6EADE8 100%);
+    border: 1px solid #6EADE8;
+    margin-right: 20px;
+}
+
+main menu .menu_left .menu_bottom p{
+    color: #FFFFFF8C;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+main menu .menu_left .menu_bottom p:hover{
+    color: #ffffff;
+}
+
+main menu .menu_left .menu_bottom_img .bx-chevron-left-circle{
+    color: #FFFFFF8C;
+    margin-left: 5px;font-size: 50px;
+}
+
+main menu .menu_left .menu_bottom_img .bx-chevron-right-circle{
+    color: #FFFFFF8C;
+    margin-left: 5px;
+    font-size: 50px;
+}
+
+main menu .menu_left .menu_bottom{
+    display: flex;
+    gap: 37px;
+    margin-top: 145px;
+}
+
+.iphone{
+    position: relative;
+  margin-left: 625px;
+}
+
